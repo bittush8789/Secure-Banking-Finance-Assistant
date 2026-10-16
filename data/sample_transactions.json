@@ -1,0 +1,52 @@
+[
+  {
+    "transaction_id": "TXN-2024-9001",
+    "account_number": "9821847120",
+    "customer_name": "Eleanor Vance",
+    "amount": 142.50,
+    "currency": "USD",
+    "transaction_type": "DEBIT",
+    "merchant_name": "Metro Utilities",
+    "channel": "ACH",
+    "status": "SETTLED",
+    "posting_date": "2024-10-14T08:15:00Z"
+  },
+  {
+    "transaction_id": "TXN-2024-9002",
+    "account_number": "9821847120",
+    "customer_name": "Eleanor Vance",
+    "amount": 142.50,
+    "currency": "USD",
+    "transaction_type": "DEBIT",
+    "merchant_name": "Metro Utilities",
+    "channel": "ACH",
+    "status": "SETTLED",
+    "posting_date": "2024-10-14T08:15:03Z",
+    "flag": "POTENTIAL_DUPLICATE"
+  },
+  {
+    "transaction_id": "TXN-2024-9003",
+    "account_number": "4111222233334444",
+    "customer_name": "Marcus Holloway",
+    "amount": 849.00,
+    "currency": "USD",
+    "transaction_type": "POS_DEBIT",
+    "merchant_name": "Apex Electronics Tokyo",
+    "channel": "VISA_CARD",
+    "status": "SETTLED",
+    "posting_date": "2024-10-12T03:22:11Z",
+    "country_code": "JP"
+  },
+  {
+    "transaction_id": "TXN-2024-9004",
+    "account_number": "3019842109",
+    "customer_name": "Sophia Chen",
+    "amount": 620.00,
+    "currency": "USD",
+    "transaction_type": "DEBIT",
+    "merchant_name": "Skyline Airways",
+    "channel": "DEBIT_CARD",
+    "status": "SETTLED",
+    "posting_date": "2024-09-01T14:10:00Z"
+  }
+]

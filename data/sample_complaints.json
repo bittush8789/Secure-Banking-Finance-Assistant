@@ -1,0 +1,46 @@
+[
+  {
+    "complaint_id": "CMP-2024-001",
+    "category": "duplicate_payments",
+    "customer_name": "Eleanor Vance",
+    "account_number": "9821847120",
+    "phone": "+1-555-0144",
+    "email": "eleanor.vance@fictional-bank-customer.test",
+    "complaint_text": "Customer Name: Eleanor Vance. Phone: +1-555-0144. Account Number: 9821847120. Email: eleanor.vance@fictional-bank-customer.test. I noticed two identical debits of $142.50 to 'Metro Utilities' on my checking account statement from yesterday morning. Only one transaction should have been processed. I called Metro Utilities and they confirmed receiving only a single payment. Please reverse the duplicate deduction of $142.50 and refund any overdraft fees immediately.",
+    "expected_issue": "Duplicate debit of $142.50 to Metro Utilities",
+    "expected_resolution": "Reversal of duplicate debit and waiver of any overdraft fees"
+  },
+  {
+    "complaint_id": "CMP-2024-002",
+    "category": "card_disputes",
+    "customer_name": "Marcus Holloway",
+    "account_number": "4111222233334444",
+    "phone": "+1-555-0182",
+    "email": "m.holloway@fictional-sample.example",
+    "complaint_text": "Customer: Marcus Holloway (Cardholder). Account: 4111222233334444. Phone: 555-0182. Email: m.holloway@fictional-sample.example. On October 12, there was an unauthorized international POS transaction for $849.00 at 'Apex Electronics Tokyo' on my debit card. I was in Chicago during this entire period and still have physical possession of my card. I demand an immediate freeze on this card, a provisional credit under Regulation E, and a replacement card sent to my branch.",
+    "expected_issue": "Fraudulent international card transaction of $849.00 at Apex Electronics Tokyo",
+    "expected_resolution": "Provisional credit, card cancellation, and replacement"
+  },
+  {
+    "complaint_id": "CMP-2024-003",
+    "category": "refund_policy",
+    "customer_name": "Sophia Chen",
+    "account_number": "3019842109",
+    "phone": "+1-555-0199",
+    "email": "sophia.chen@example-banking-fictional.org",
+    "complaint_text": "Name: Sophia Chen. Customer ID: CUST-88491. Account: 3019842109. Phone: +1-555-0199. I returned an unused flight ticket on September 15th to Skyline Airways. The airline provided a refund receipt indicating $620.00 was issued back to my account via ACH credit, but three weeks have passed and the funds have not appeared on my checking ledger. Please locate the pending incoming ACH credit and post it to my account.",
+    "expected_issue": "Missing merchant refund of $620.00 after 3 weeks",
+    "expected_resolution": "Trace pending ACH credit and post funds to customer account"
+  },
+  {
+    "complaint_id": "CMP-2024-004",
+    "category": "account_servicing",
+    "customer_name": "David Sterling",
+    "account_number": "1192847192",
+    "phone": "+1-555-0133",
+    "email": "david.sterling@fictional-sample.test",
+    "complaint_text": "Customer Name: David Sterling. Account Number: 1192847192. Email: david.sterling@fictional-sample.test. Phone: 555-0133. I requested a change of primary residential address through online banking two weeks ago, but my monthly paper statements and tax documentation are still being delivered to my previous address. This is a severe privacy concern. Please verify my updated address on file, confirm suppression of paper mailings, and issue updated confirmation.",
+    "expected_issue": "Address change failed to update delivery routing for paper statements",
+    "expected_resolution": "Update address records, verify privacy suppression, and send confirmation"
+  }
+]

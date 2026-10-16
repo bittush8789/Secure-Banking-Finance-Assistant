@@ -1,0 +1,30 @@
+# Secure Banking & Finance Assistant Dependencies
+# Pinned for reproducibility and security audit compliance
+
+# Web Framework & Validation
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# Database & ORM
+SQLAlchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+aiosqlite==0.20.0
+
+# AWS SDK for Amazon Bedrock & KMS
+boto3==1.35.90
+botocore==1.35.90
+
+# Cryptography & Token Security
+cryptography==44.0.0
+PyJWT[crypto]==2.10.1
+
+# HTTP Client (for JWKS retrieval & external services)
+httpx==0.28.1
+
+# Testing & Mocking (static definitions for automated test suites)
+pytest==8.3.4
+pytest-asyncio==0.25.1
+pytest-mock==3.14.0
